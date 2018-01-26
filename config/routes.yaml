@@ -1,0 +1,11 @@
+app_product_index:
+  methods:
+    - GET
+  path: /products
+  controller: App\Controller\ProductController::index
+
+app_product_create:
+  methods:
+    - POST
+  path: /product
+  controller: App\Controller\ProductController::create
